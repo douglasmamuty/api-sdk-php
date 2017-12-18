@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse2004Test
+ * OrderByParamTest
  *
  * PHP version 5
  *
@@ -29,16 +29,16 @@
 namespace Swagger\Client;
 
 /**
- * InlineResponse2004Test Class Doc Comment
+ * OrderByParamTest Class Doc Comment
  *
  * @category    Class */
-// * @description InlineResponse2004
+// * @description Specify the field to be sorted, examples:  - &#x60;?order_by&#x3D;id|desc&#x60; - &#x60;?order_by&#x3D;updated_at|desc,position|asc&#x60;
 /**
  * @package     Swagger\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse2004Test extends \PHPUnit_Framework_TestCase
+class OrderByParamTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -70,23 +70,9 @@ class InlineResponse2004Test extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "InlineResponse2004"
+     * Test "OrderByParam"
      */
-    public function testInlineResponse2004()
-    {
-    }
-
-    /**
-     * Test attribute "data"
-     */
-    public function testPropertyData()
-    {
-    }
-
-    /**
-     * Test attribute "meta"
-     */
-    public function testPropertyMeta()
+    public function testOrderByParam()
     {
     }
 }

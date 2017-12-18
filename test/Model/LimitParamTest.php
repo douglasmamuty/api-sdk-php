@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse2004Test
+ * LimitParamTest
  *
  * PHP version 5
  *
@@ -29,16 +29,16 @@
 namespace Swagger\Client;
 
 /**
- * InlineResponse2004Test Class Doc Comment
+ * LimitParamTest Class Doc Comment
  *
  * @category    Class */
-// * @description InlineResponse2004
+// * @description max records to return
 /**
  * @package     Swagger\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse2004Test extends \PHPUnit_Framework_TestCase
+class LimitParamTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -70,23 +70,9 @@ class InlineResponse2004Test extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "InlineResponse2004"
+     * Test "LimitParam"
      */
-    public function testInlineResponse2004()
-    {
-    }
-
-    /**
-     * Test attribute "data"
-     */
-    public function testPropertyData()
-    {
-    }
-
-    /**
-     * Test attribute "meta"
-     */
-    public function testPropertyMeta()
+    public function testLimitParam()
     {
     }
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * InlineResponse2004Test
+ * IncludesParamTest
  *
  * PHP version 5
  *
@@ -29,16 +29,16 @@
 namespace Swagger\Client;
 
 /**
- * InlineResponse2004Test Class Doc Comment
+ * IncludesParamTest Class Doc Comment
  *
  * @category    Class */
-// * @description InlineResponse2004
+// * @description Include associated objects within response
 /**
  * @package     Swagger\Client
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class InlineResponse2004Test extends \PHPUnit_Framework_TestCase
+class IncludesParamTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -70,23 +70,9 @@ class InlineResponse2004Test extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "InlineResponse2004"
+     * Test "IncludesParam"
      */
-    public function testInlineResponse2004()
-    {
-    }
-
-    /**
-     * Test attribute "data"
-     */
-    public function testPropertyData()
-    {
-    }
-
-    /**
-     * Test attribute "meta"
-     */
-    public function testPropertyMeta()
+    public function testIncludesParam()
     {
     }
 }
